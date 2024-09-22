@@ -257,7 +257,7 @@ i{
 .line{
     height: 0.5px;
     width: 80%;
-    margin: 5% 10% 0% 10%;
+    margin: -2% 10% 0% 10%;
     border-top: 1px solid white;
 }
 .footer>p{
@@ -617,6 +617,9 @@ button:hover{
 
 @media(max-width:616px)
 {
+    .line{
+        margin: 5% 10% 0% 10%;
+    }
     .fleft{
         margin-bottom: 30px;
     }
